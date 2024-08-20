@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yEdleQVz5ePzM46osb18ztzlLK9AaHx9S0smnmur90Ad/Z6DLfVkSwImGMu0hS4f/48MyyKj+773Z+vgtkSKlw==",
+  "dgSpecHash": "ujHfIitQ8uD6aioddhM5tVMRD7IRWkYuse9GWWNI5lV13QRCVb1MY4Sbhaf+eoEPqTH91wYGJbXe1x8C/X+hHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Presentation.RestApi2\\School.Src.Presentation.RestApi.csproj",
+  "projectFilePath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Presentation.RestApi2\\School.Src.Presentation.RestApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\57313\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\57313\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

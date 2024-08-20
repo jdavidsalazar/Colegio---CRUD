@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Application.Services\\School.Src.Core.Application.Services.csproj": {}
+    "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Application.Services\\School.Src.Core.Application.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Application.Services\\School.Src.Core.Application.Services.csproj": {
+    "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Application.Services\\School.Src.Core.Application.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Application.Services\\School.Src.Core.Application.Services.csproj",
+        "projectUniqueName": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Application.Services\\School.Src.Core.Application.Services.csproj",
         "projectName": "School.Src.Core.Application.Services",
-        "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Application.Services\\School.Src.Core.Application.Services.csproj",
+        "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Application.Services\\School.Src.Core.Application.Services.csproj",
         "packagesPath": "C:\\Users\\57313\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Application.Services\\obj\\",
+        "outputPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Application.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\57313\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Application.Validation\\School.Src.Core.Application.Validation.csproj": {
-                "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Application.Validation\\School.Src.Core.Application.Validation.csproj"
+              "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Application.Validation\\School.Src.Core.Application.Validation.csproj": {
+                "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Application.Validation\\School.Src.Core.Application.Validation.csproj"
               },
-              "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Repositories\\School.Src.Core.Domain.Repositories.csproj": {
-                "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Repositories\\School.Src.Core.Domain.Repositories.csproj"
+              "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Repositories\\School.Src.Core.Domain.Repositories.csproj": {
+                "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Repositories\\School.Src.Core.Domain.Repositories.csproj"
               },
-              "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Services\\School.Src.Core.Domain.Services.csproj": {
-                "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Services\\School.Src.Core.Domain.Services.csproj"
+              "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Services\\School.Src.Core.Domain.Services.csproj": {
+                "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Services\\School.Src.Core.Domain.Services.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Application.Validation\\School.Src.Core.Application.Validation.csproj": {
+    "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Application.Validation\\School.Src.Core.Application.Validation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Application.Validation\\School.Src.Core.Application.Validation.csproj",
+        "projectUniqueName": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Application.Validation\\School.Src.Core.Application.Validation.csproj",
         "projectName": "School.Src.Core.Application.Validation",
-        "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Application.Validation\\School.Src.Core.Application.Validation.csproj",
+        "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Application.Validation\\School.Src.Core.Application.Validation.csproj",
         "packagesPath": "C:\\Users\\57313\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Application.Validation\\obj\\",
+        "outputPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Application.Validation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\57313\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj": {
-                "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj"
+              "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj": {
+                "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj"
               }
             }
           }
@@ -128,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj": {
+    "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj",
         "projectName": "School.Src.Core.Domain.Entities",
-        "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj",
+        "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj",
         "packagesPath": "C:\\Users\\57313\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Entities\\obj\\",
+        "outputPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\57313\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -183,14 +183,14 @@
         }
       }
     },
-    "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Repositories\\School.Src.Core.Domain.Repositories.csproj": {
+    "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Repositories\\School.Src.Core.Domain.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Repositories\\School.Src.Core.Domain.Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Repositories\\School.Src.Core.Domain.Repositories.csproj",
         "projectName": "School.Src.Core.Domain.Repositories",
-        "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Repositories\\School.Src.Core.Domain.Repositories.csproj",
+        "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Repositories\\School.Src.Core.Domain.Repositories.csproj",
         "packagesPath": "C:\\Users\\57313\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Repositories\\obj\\",
+        "outputPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\57313\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -207,8 +207,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj": {
-                "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj"
+              "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj": {
+                "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj"
               }
             }
           }
@@ -242,14 +242,14 @@
         }
       }
     },
-    "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Services\\School.Src.Core.Domain.Services.csproj": {
+    "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Services\\School.Src.Core.Domain.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Services\\School.Src.Core.Domain.Services.csproj",
+        "projectUniqueName": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Services\\School.Src.Core.Domain.Services.csproj",
         "projectName": "School.Src.Core.Domain.Services",
-        "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Services\\School.Src.Core.Domain.Services.csproj",
+        "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Services\\School.Src.Core.Domain.Services.csproj",
         "packagesPath": "C:\\Users\\57313\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Services\\obj\\",
+        "outputPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\57313\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -266,8 +266,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj": {
-                "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj"
+              "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj": {
+                "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj"
               }
             }
           }

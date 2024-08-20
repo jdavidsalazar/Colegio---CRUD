@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NuU0QHjMlvpcE1e+mQ7ji4bFQORh6wUJ5IacfbG8O5/xLe4ZUnAyO1AdbLUUGLcm9tLdVgJHJRvqe0fBIG/V2g==",
+  "dgSpecHash": "RqGFoI7PKPDSG2Q1UZ0hBsaabeWQqe2g3LLx9OubM6hAwMTvGNSvL6P5f/4WCl6Ahc6K6zudTnvwYceUt6w6qQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj",
+  "projectFilePath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

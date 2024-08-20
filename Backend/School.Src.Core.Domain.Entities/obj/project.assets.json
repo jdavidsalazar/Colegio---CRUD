@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj",
       "projectName": "School.Src.Core.Domain.Entities",
-      "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj",
+      "projectPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Entities\\School.Src.Core.Domain.Entities.csproj",
       "packagesPath": "C:\\Users\\57313\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Core.Domain.Entities\\obj\\",
+      "outputPath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Core.Domain.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\57313\\AppData\\Roaming\\NuGet\\NuGet.Config",

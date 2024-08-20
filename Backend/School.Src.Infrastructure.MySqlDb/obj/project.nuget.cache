@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jMLcuxNY+KjNeOnki5vJl/BnJ1biUMBEDTJN9wv2JJ5gd2hQrrOr/nvR0kJmUZZR2W8rnO+XloWO6J3EDr5kmg==",
+  "dgSpecHash": "00CS7wVF1PL8cIJAwM7yqgzXW/DnGlBJctF/vMDKG23mvS+6sPY9y+85RH1fqTmFyiLrjlw3I2tpLtLB04FClw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\School\\School.Src.Infrastructure.MySqlDb\\School.Src.Infrastructure.MySqlDb.csproj",
+  "projectFilePath": "C:\\Users\\57313\\Desktop\\Prueba Tecnica Viaro\\GitHub - Colegio CRUD\\Colegio-CRUD\\Backend\\School.Src.Infrastructure.MySqlDb\\School.Src.Infrastructure.MySqlDb.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
