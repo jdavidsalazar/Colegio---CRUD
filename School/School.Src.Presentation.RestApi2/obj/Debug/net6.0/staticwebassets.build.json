@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WBrQMQPYQ/6cFyhFrYzSG+wzE7QQjdf1GtMq/Ey64i8=",
+  "Source": "School.Src.Presentation.RestApi",
+  "BasePath": "_content/School.Src.Presentation.RestApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

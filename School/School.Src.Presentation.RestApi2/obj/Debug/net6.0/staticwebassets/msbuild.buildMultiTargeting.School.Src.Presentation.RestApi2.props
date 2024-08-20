@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\School.Src.Presentation.RestApi2.props" />
+</Project>

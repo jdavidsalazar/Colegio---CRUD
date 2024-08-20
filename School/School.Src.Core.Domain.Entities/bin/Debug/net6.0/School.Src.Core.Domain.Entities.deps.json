@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "School.Src.Core.Domain.Entities/1.0.0": {
+        "runtime": {
+          "School.Src.Core.Domain.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "School.Src.Core.Domain.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

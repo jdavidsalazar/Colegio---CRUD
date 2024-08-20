@@ -1,0 +1,12 @@
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Entities\bin\Debug\net6.0\School.Src.Core.Domain.Entities.deps.json
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Entities\bin\Debug\net6.0\School.Src.Core.Domain.Entities.dll
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Entities\bin\Debug\net6.0\School.Src.Core.Domain.Entities.pdb
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Entities\obj\Debug\net6.0\School.Src.Core.Domain.Entities.csproj.AssemblyReference.cache
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Entities\obj\Debug\net6.0\School.Src.Core.Domain.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Entities\obj\Debug\net6.0\School.Src.Core.Domain.Entities.AssemblyInfoInputs.cache
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Entities\obj\Debug\net6.0\School.Src.Core.Domain.Entities.AssemblyInfo.cs
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Entities\obj\Debug\net6.0\School.Src.Core.Domain.Entities.csproj.CoreCompileInputs.cache
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Entities\obj\Debug\net6.0\School.Src.Core.Domain.Entities.dll
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Entities\obj\Debug\net6.0\refint\School.Src.Core.Domain.Entities.dll
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Entities\obj\Debug\net6.0\School.Src.Core.Domain.Entities.pdb
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Entities\obj\Debug\net6.0\ref\School.Src.Core.Domain.Entities.dll

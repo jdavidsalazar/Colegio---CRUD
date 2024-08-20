@@ -1,0 +1,15 @@
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Services\bin\Debug\net6.0\School.Src.Core.Domain.Services.deps.json
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Services\bin\Debug\net6.0\School.Src.Core.Domain.Services.dll
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Services\bin\Debug\net6.0\School.Src.Core.Domain.Services.pdb
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Services\bin\Debug\net6.0\School.Src.Core.Domain.Entities.dll
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Services\bin\Debug\net6.0\School.Src.Core.Domain.Entities.pdb
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Services\obj\Debug\net6.0\School.Src.Core.Domain.Services.csproj.AssemblyReference.cache
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Services\obj\Debug\net6.0\School.Src.Core.Domain.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Services\obj\Debug\net6.0\School.Src.Core.Domain.Services.AssemblyInfoInputs.cache
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Services\obj\Debug\net6.0\School.Src.Core.Domain.Services.AssemblyInfo.cs
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Services\obj\Debug\net6.0\School.Src.Core.Domain.Services.csproj.CoreCompileInputs.cache
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Services\obj\Debug\net6.0\School.Src.Core.Domain.Services.csproj.CopyComplete
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Services\obj\Debug\net6.0\School.Src.Core.Domain.Services.dll
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Services\obj\Debug\net6.0\refint\School.Src.Core.Domain.Services.dll
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Services\obj\Debug\net6.0\School.Src.Core.Domain.Services.pdb
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\School\School.Src.Core.Domain.Services\obj\Debug\net6.0\ref\School.Src.Core.Domain.Services.dll
