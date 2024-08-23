@@ -37,14 +37,6 @@ builder.Services.AddScoped<IProfesorRepository, ProfesorRepository>();
 builder.Services.AddScoped<IGradoRepository, GradoRepository>();
 builder.Services.AddScoped<IAlumnoGradoRepository, AlumnoGradoRepository>();
 
-
-// Configure DbContex
-//builder.Services.AddDbContext<ApplicationDbContext>(options =>
-//    options.UseMySql(
-//        builder.Configuration.GetConnectionString("DefaultConnection"),
-//        new MySqlServerVersion(new Version(8, 0, 21))
-//    ));
-
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(
         "Server=.;Database=Colegio;User Id=JD\\57313;Trusted_Connection=True;TrustServerCertificate=True;"
