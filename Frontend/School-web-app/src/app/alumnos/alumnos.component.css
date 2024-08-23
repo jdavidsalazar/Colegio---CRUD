@@ -15,6 +15,12 @@ mat-header-cell {
   font-weight: bold;
 }
 
-button {
+button.add-button {
   min-width: 40px;
+  background-color: #7b1fa2;
+  margin: 20px;
+}
+
+#alumnos-table {
+  margin: 20px;
 }

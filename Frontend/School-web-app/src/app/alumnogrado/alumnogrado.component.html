@@ -1,31 +1,77 @@
-<button mat-icon-button (click)="addNewRow()">
+<button class="add-button" mat-icon-button (click)="addNewRow()">
   <mat-icon>add</mat-icon>
 </button>
 
-<mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+<mat-table
+  id="alumnoGrado-table"
+  [dataSource]="dataSource"
+  class="mat-elevation-z8"
+>
   <!-- ID Column -->
   <ng-container matColumnDef="id">
     <mat-header-cell *matHeaderCellDef> ID </mat-header-cell>
     <mat-cell *matCellDef="let element"> {{ element.id }} </mat-cell>
   </ng-container>
 
-  <!-- AlumnoId Column -->
+  <!-- Alumno ID Column -->
   <ng-container matColumnDef="alumnoId">
     <mat-header-cell *matHeaderCellDef> Alumno ID </mat-header-cell>
-    <mat-cell *matCellDef="let element"> {{ element.alumnoId }} </mat-cell>
+    <mat-cell *matCellDef="let element">
+      <ng-container *ngIf="element.isEditMode; else readOnlyAlumnoId">
+        <input
+          matInput
+          [(ngModel)]="element.alumnoId"
+          placeholder="Alumno ID"
+          type="number"
+        />
+      </ng-container>
+      <ng-template #readOnlyAlumnoId>
+        {{ element.alumnoId }}
+      </ng-template>
+    </mat-cell>
+  </ng-container>
+
+  <!-- Grado ID Column -->
+  <ng-container matColumnDef="gradoId">
+    <mat-header-cell *matHeaderCellDef> Grado ID </mat-header-cell>
+    <mat-cell *matCellDef="let element">
+      <ng-container *ngIf="element.isEditMode; else readOnlyGradoId">
+        <input
+          matInput
+          [(ngModel)]="element.gradoId"
+          placeholder="Grado ID"
+          type="number"
+        />
+      </ng-container>
+      <ng-template #readOnlyGradoId>
+        {{ element.gradoId }}
+      </ng-template>
+    </mat-cell>
   </ng-container>
 
   <!-- Grupo Column -->
   <ng-container matColumnDef="grupo">
     <mat-header-cell *matHeaderCellDef> Grupo </mat-header-cell>
-    <mat-cell *matCellDef="let element"> {{ element.grupo }} </mat-cell>
+    <mat-cell *matCellDef="let element">
+      <ng-container *ngIf="element.isEditMode; else readOnlyGrupo">
+        <input matInput [(ngModel)]="element.grupo" placeholder="Grupo" />
+      </ng-container>
+      <ng-template #readOnlyGrupo>
+        {{ element.grupo }}
+      </ng-template>
+    </mat-cell>
   </ng-container>
 
-  <!-- Edit Button Column -->
+  <!-- Edit/Save Button Column -->
   <ng-container matColumnDef="edit">
-    <mat-header-cell *matHeaderCellDef> Edit </mat-header-cell>
+    <mat-header-cell *matHeaderCellDef> Action </mat-header-cell>
     <mat-cell *matCellDef="let element">
-      <button mat-button (click)="editRow(element)">Edit</button>
+      <ng-container *ngIf="element.isEditMode; else readOnlyButtons">
+        <button mat-button (click)="saveRow(element)">Save</button>
+      </ng-container>
+      <ng-template #readOnlyButtons>
+        <button mat-button (click)="editRow(element)">Edit</button>
+      </ng-template>
     </mat-cell>
   </ng-container>
 

@@ -1,56 +1,111 @@
 import { Component, OnInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
+import { AlumnoGradoService } from '../services/alumnogrado.service';
 
 @Component({
-  selector: 'app-alumno-grado',
+  selector: 'app-alumno-grados',
   templateUrl: './alumnogrado.component.html',
   styleUrls: ['./alumnogrado.component.css'],
 })
-export class AlumnogradoComponent implements OnInit {
-  // Define the columns that will be displayed
-  displayedColumns: string[] = ['id', 'alumnoId', 'grupo', 'edit', 'delete'];
+export class AlumnoGradosComponent implements OnInit {
+  displayedColumns: string[] = [
+    'id',
+    'alumnoId',
+    'gradoId',
+    'grupo',
+    'edit',
+    'delete',
+  ];
+  dataSource = new MatTableDataSource<any>([]);
 
-  // Example data source
-  dataSource = new MatTableDataSource<{
-    id: number;
-    alumnoId: number;
-    grupo: string;
-  }>([
-    {
-      id: 1,
-      alumnoId: 101,
-      grupo: 'A',
-    },
-    {
-      id: 2,
-      alumnoId: 102,
-      grupo: 'B',
-    },
-    // Add more rows here
-  ]);
+  constructor(private alumnoGradoService: AlumnoGradoService) {}
 
-  constructor() {}
+  ngOnInit(): void {
+    this.loadAlumnoGrados();
+  }
 
-  ngOnInit(): void {}
+  loadAlumnoGrados(): void {
+    this.alumnoGradoService.getAlumnoGrados().subscribe(
+      (data) => {
+        this.dataSource.data = data;
+      },
+      (error) => {
+        console.error('Error loading alumno grados', error);
+      }
+    );
+  }
 
-  // Method to handle adding a new row
   addNewRow() {
     const newRow = {
-      id: this.dataSource.data.length + 1,
-      alumnoId: 0,
+      id: null,
+      alumnoId: null,
+      gradoId: null,
       grupo: '',
+      isEditMode: true,
     };
-    this.dataSource.data = [...this.dataSource.data, newRow];
+    this.dataSource.data = [newRow, ...this.dataSource.data];
   }
 
-  // Method to handle editing a row
   editRow(row: any) {
-    // Implement the edit logic here
-    console.log('Editing row', row);
+    row.isEditMode = true;
   }
 
-  // Method to handle deleting a row
+  saveRow(row: any) {
+    if (!row.alumnoId || !row.gradoId || !row.grupo) {
+      console.error('Validation failed: All fields are required');
+      alert('Please fill out all required fields.');
+      return;
+    }
+
+    // Add new AlumnoGrado
+    if (row.id === null) {
+      const { id, isEditMode, ...payload } = row;
+
+      // Make sure to send the payload as an array of objects
+      this.alumnoGradoService.addAlumnoGrado([payload]).subscribe(
+        (addedAlumnoGrado) => {
+          row.id = addedAlumnoGrado[0].id; // Assuming API returns an array
+          row.isEditMode = false;
+          console.log('AlumnoGrado added', addedAlumnoGrado);
+
+          this.loadAlumnoGrados();
+        },
+        (error) => {
+          console.error('Error adding alumno grado', error);
+          alert(
+            `An error occurred while adding the alumno grado: ${error.error}`
+          );
+        }
+      );
+    } else {
+      // Update existing AlumnoGrado
+      const { isEditMode, ...payload } = row;
+
+      this.alumnoGradoService.updateAlumnoGrado(row.id, payload).subscribe(
+        (updatedAlumnoGrado) => {
+          row.isEditMode = false;
+          console.log('AlumnoGrado updated', updatedAlumnoGrado);
+
+          this.loadAlumnoGrados();
+        },
+        (error) => {
+          console.error('Error updating alumno grado', error);
+          alert(
+            `An error occurred while updating the alumno grado: ${error.error}`
+          );
+        }
+      );
+    }
+  }
+
   deleteRow(row: any) {
-    this.dataSource.data = this.dataSource.data.filter((r) => r !== row);
+    this.alumnoGradoService.deleteAlumnoGrado(row.id).subscribe(
+      () => {
+        this.dataSource.data = this.dataSource.data.filter((r) => r !== row);
+      },
+      (error) => {
+        console.error('Error deleting alumno grado', error);
+      }
+    );
   }
 }

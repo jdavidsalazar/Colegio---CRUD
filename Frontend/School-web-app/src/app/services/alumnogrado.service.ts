@@ -19,13 +19,13 @@ export class AlumnoGradoService {
   }
 
   updateAlumnoGrado(id: number, alumnoGrado: any): Observable<any> {
-    return this.http.put<any>(
-      `${this.baseApiUrl}alumnogrado/${id}`,
+    return this.http.patch<any>(
+      `${this.baseApiUrl}alumnogrados/${id}`,
       alumnoGrado
     );
   }
 
   deleteAlumnoGrado(id: number): Observable<any> {
-    return this.http.delete<any>(`${this.baseApiUrl}alumnogrado/${id}`);
+    return this.http.delete<any>(`${this.baseApiUrl}alumnogrados/${id}`);
   }
 }

@@ -20,6 +20,8 @@ export class AlumnosComponent implements OnInit {
 
   dataSource = new MatTableDataSource<any>([]);
 
+  generoOptions: string[] = ['Masculino', 'Femenino', 'Otro'];
+
   constructor(private alumnosService: AlumnosService) {}
 
   ngOnInit(): void {

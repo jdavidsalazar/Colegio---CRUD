@@ -1,31 +1,56 @@
-<button mat-icon-button (click)="addNewRow()">
+<!-- The template remains unchanged -->
+<button class="add-button" mat-icon-button (click)="addNewRow()">
   <mat-icon>add</mat-icon>
 </button>
 
-<mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+<mat-table id="grados-table" [dataSource]="dataSource" class="mat-elevation-z8">
   <!-- ID Column -->
   <ng-container matColumnDef="id">
     <mat-header-cell *matHeaderCellDef> ID </mat-header-cell>
     <mat-cell *matCellDef="let element"> {{ element.id }} </mat-cell>
   </ng-container>
 
-  <!-- Nombre Column -->
+  <!-- Name Column -->
   <ng-container matColumnDef="nombre">
     <mat-header-cell *matHeaderCellDef> Nombre </mat-header-cell>
-    <mat-cell *matCellDef="let element"> {{ element.nombre }} </mat-cell>
+    <mat-cell *matCellDef="let element">
+      <ng-container *ngIf="element.isEditMode; else readOnlyName">
+        <input matInput [(ngModel)]="element.nombre" placeholder="Nombre" />
+      </ng-container>
+      <ng-template #readOnlyName>
+        {{ element.nombre }}
+      </ng-template>
+    </mat-cell>
   </ng-container>
 
-  <!-- ProfesorId Column -->
+  <!-- Profesor ID Column -->
   <ng-container matColumnDef="profesorId">
     <mat-header-cell *matHeaderCellDef> Profesor ID </mat-header-cell>
-    <mat-cell *matCellDef="let element"> {{ element.profesorId }} </mat-cell>
+    <mat-cell *matCellDef="let element">
+      <ng-container *ngIf="element.isEditMode; else readOnlyProfesorId">
+        <input
+          matInput
+          [(ngModel)]="element.profesorId"
+          placeholder="Profesor ID"
+          type="number"
+        />
+      </ng-container>
+      <ng-template #readOnlyProfesorId>
+        {{ element.profesorId }}
+      </ng-template>
+    </mat-cell>
   </ng-container>
 
-  <!-- Edit Button Column -->
+  <!-- Edit/Save Button Column -->
   <ng-container matColumnDef="edit">
-    <mat-header-cell *matHeaderCellDef> Edit </mat-header-cell>
+    <mat-header-cell *matHeaderCellDef> Action </mat-header-cell>
     <mat-cell *matCellDef="let element">
-      <button mat-button (click)="editRow(element)">Edit</button>
+      <ng-container *ngIf="element.isEditMode; else readOnlyButtons">
+        <button mat-button (click)="saveRow(element)">Save</button>
+      </ng-container>
+      <ng-template #readOnlyButtons>
+        <button mat-button (click)="editRow(element)">Edit</button>
+      </ng-template>
     </mat-cell>
   </ng-container>
 

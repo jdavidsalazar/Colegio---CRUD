@@ -1,9 +1,13 @@
 <!-- The template remains unchanged -->
-<button mat-icon-button (click)="addNewRow()">
+<button class="add-button" mat-icon-button (click)="addNewRow()">
   <mat-icon>add</mat-icon>
 </button>
 
-<mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+<mat-table
+  id="alumnos-table"
+  [dataSource]="dataSource"
+  class="mat-elevation-z8"
+>
   <!-- ID Column -->
   <ng-container matColumnDef="id">
     <mat-header-cell *matHeaderCellDef> ID </mat-header-cell>
@@ -45,7 +49,13 @@
     <mat-header-cell *matHeaderCellDef> Género </mat-header-cell>
     <mat-cell *matCellDef="let element">
       <ng-container *ngIf="element.isEditMode; else readOnlyGenero">
-        <input matInput [(ngModel)]="element.genero" placeholder="Género" />
+        <mat-form-field>
+          <mat-select [(ngModel)]="element.genero" placeholder="Género">
+            <mat-option *ngFor="let option of generoOptions" [value]="option">
+              {{ option }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
       </ng-container>
       <ng-template #readOnlyGenero>
         {{ element.genero }}

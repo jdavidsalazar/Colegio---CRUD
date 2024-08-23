@@ -19,10 +19,10 @@ export class ProfesoresService {
   }
 
   updateProfesor(id: number, profesor: any): Observable<any> {
-    return this.http.put<any>(`${this.baseApiUrl}profesor/${id}`, profesor);
+    return this.http.patch<any>(`${this.baseApiUrl}profesores/${id}`, profesor);
   }
 
   deleteProfesor(id: number): Observable<any> {
-    return this.http.delete<any>(`${this.baseApiUrl}profesor/${id}`);
+    return this.http.delete<any>(`${this.baseApiUrl}profesores/${id}`);
   }
 }

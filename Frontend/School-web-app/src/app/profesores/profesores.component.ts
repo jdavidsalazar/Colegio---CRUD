@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
+import { ProfesoresService } from '../services/profesores.service';
 
 @Component({
   selector: 'app-profesores',
@@ -7,61 +8,105 @@ import { MatTableDataSource } from '@angular/material/table';
   styleUrls: ['./profesores.component.css'],
 })
 export class ProfesoresComponent implements OnInit {
-  // Define the columns that will be displayed
   displayedColumns: string[] = [
     'id',
     'nombre',
-    'apellido',
+    'apellidos',
     'genero',
     'edit',
     'delete',
   ];
 
-  // Example data source
-  dataSource = new MatTableDataSource<{
-    id: number;
-    nombre: string;
-    apellido: string;
-    genero: string;
-  }>([
-    {
-      id: 1,
-      nombre: 'Carlos',
-      apellido: 'Sánchez',
-      genero: 'Masculino',
-    },
-    {
-      id: 2,
-      nombre: 'Lucía',
-      apellido: 'Martínez',
-      genero: 'Femenino',
-    },
-    // Add more rows here
-  ]);
+  dataSource = new MatTableDataSource<any>([]);
 
-  constructor() {}
+  generoOptions: string[] = ['Masculino', 'Femenino', 'Otro'];
 
-  ngOnInit(): void {}
+  constructor(private profesoresService: ProfesoresService) {}
 
-  // Method to handle adding a new row
+  ngOnInit(): void {
+    this.loadProfesores();
+  }
+
+  loadProfesores(): void {
+    this.profesoresService.getProfesores().subscribe(
+      (data) => {
+        this.dataSource.data = data;
+      },
+      (error) => {
+        console.error('Error loading profesores', error);
+      }
+    );
+  }
+
   addNewRow() {
     const newRow = {
-      id: this.dataSource.data.length + 1,
+      id: null,
       nombre: '',
-      apellido: '',
+      apellidos: '',
       genero: '',
+      isEditMode: true,
     };
-    this.dataSource.data = [...this.dataSource.data, newRow];
+    this.dataSource.data = [newRow, ...this.dataSource.data];
   }
 
-  // Method to handle editing a row
+  saveRow(row: any) {
+    if (!row.nombre || !row.apellidos || !row.genero) {
+      console.error('Validation failed: All fields are required');
+      alert('Please fill out all required fields.');
+      return;
+    }
+
+    // add new Profesor
+    if (row.id === null) {
+      const { id, isEditMode, ...payload } = row;
+      const payloadArray = [payload];
+
+      this.profesoresService.addProfesor(payloadArray).subscribe(
+        (addedProfesor) => {
+          row.id = addedProfesor.id;
+          row.isEditMode = false;
+          console.log('Profesor added', addedProfesor);
+
+          this.loadProfesores();
+        },
+        (error) => {
+          console.error('Error adding profesor', error);
+          alert(`An error occurred while adding the profesor: ${error.error}`);
+        }
+      );
+    } else {
+      // Update existing Profesor
+      const { isEditMode, ...payload } = row;
+
+      this.profesoresService.updateProfesor(row.id, payload).subscribe(
+        (updatedProfesor) => {
+          row.isEditMode = false;
+          console.log('Profesor updated', updatedProfesor);
+
+          this.loadProfesores();
+        },
+        (error) => {
+          console.error('Error updating profesor', error);
+          alert(
+            `An error occurred while updating the profesor: ${error.error}`
+          );
+        }
+      );
+    }
+  }
+
   editRow(row: any) {
-    // Implement the edit logic here
-    console.log('Editing row', row);
+    row.isEditMode = true;
   }
 
-  // Method to handle deleting a row
   deleteRow(row: any) {
-    this.dataSource.data = this.dataSource.data.filter((r) => r !== row);
+    this.profesoresService.deleteProfesor(row.id).subscribe(
+      () => {
+        this.dataSource.data = this.dataSource.data.filter((r) => r !== row);
+      },
+      (error) => {
+        console.error('Error deleting profesor', error);
+      }
+    );
   }
 }

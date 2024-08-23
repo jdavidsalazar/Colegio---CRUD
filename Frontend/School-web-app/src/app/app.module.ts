@@ -11,13 +11,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSelectModule } from '@angular/material/select';
+import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { NavbarModule } from './navbar/navbar.module';
 import { AlumnosComponent } from './alumnos/alumnos.component';
 import { ProfesoresComponent } from './profesores/profesores.component';
 import { GradosComponent } from './grados/grados.component';
-import { AlumnogradoComponent } from './alumnogrado/alumnogrado.component';
+import { AlumnoGradosComponent } from './alumnogrado/alumnogrado.component';
 
 import { AlumnosService } from './services/alumnos.service';
 import { ProfesoresService } from './services/profesores.service';
@@ -30,12 +32,13 @@ import { AlumnoGradoService } from './services/alumnogrado.service';
     AlumnosComponent,
     ProfesoresComponent,
     GradosComponent,
-    AlumnogradoComponent,
+    AlumnoGradosComponent,
   ],
   imports: [
     BrowserModule,
     NavbarModule,
     AppRoutingModule,
+    RouterModule,
     MatToolbarModule,
     MatIconModule,
     MatTableModule,
@@ -47,6 +50,7 @@ import { AlumnoGradoService } from './services/alumnogrado.service';
     MatDatepickerModule,
     MatNativeDateModule,
     BrowserAnimationsModule,
+    MatSelectModule,
   ],
   providers: [
     AlumnosService,
