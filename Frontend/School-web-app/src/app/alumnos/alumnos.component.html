@@ -1,3 +1,4 @@
+<!-- The template remains unchanged -->
 <button mat-icon-button (click)="addNewRow()">
   <mat-icon>add</mat-icon>
 </button>
@@ -12,34 +13,81 @@
   <!-- Name Column -->
   <ng-container matColumnDef="nombre">
     <mat-header-cell *matHeaderCellDef> Nombre </mat-header-cell>
-    <mat-cell *matCellDef="let element"> {{ element.nombre }} </mat-cell>
+    <mat-cell *matCellDef="let element">
+      <ng-container *ngIf="element.isEditMode; else readOnlyName">
+        <input matInput [(ngModel)]="element.nombre" placeholder="Nombre" />
+      </ng-container>
+      <ng-template #readOnlyName>
+        {{ element.nombre }}
+      </ng-template>
+    </mat-cell>
   </ng-container>
 
   <!-- Last Name Column -->
-  <ng-container matColumnDef="apellido">
+  <ng-container matColumnDef="apellidos">
     <mat-header-cell *matHeaderCellDef> Apellido </mat-header-cell>
-    <mat-cell *matCellDef="let element"> {{ element.apellido }} </mat-cell>
+    <mat-cell *matCellDef="let element">
+      <ng-container *ngIf="element.isEditMode; else readOnlyApellidos">
+        <input
+          matInput
+          [(ngModel)]="element.apellidos"
+          placeholder="Apellido"
+        />
+      </ng-container>
+      <ng-template #readOnlyApellidos>
+        {{ element.apellidos }}
+      </ng-template>
+    </mat-cell>
   </ng-container>
 
   <!-- Gender Column -->
   <ng-container matColumnDef="genero">
     <mat-header-cell *matHeaderCellDef> Género </mat-header-cell>
-    <mat-cell *matCellDef="let element"> {{ element.genero }} </mat-cell>
+    <mat-cell *matCellDef="let element">
+      <ng-container *ngIf="element.isEditMode; else readOnlyGenero">
+        <input matInput [(ngModel)]="element.genero" placeholder="Género" />
+      </ng-container>
+      <ng-template #readOnlyGenero>
+        {{ element.genero }}
+      </ng-template>
+    </mat-cell>
   </ng-container>
 
   <!-- Date of Birth Column -->
   <ng-container matColumnDef="fechaNacimiento">
     <mat-header-cell *matHeaderCellDef> Fecha de Nacimiento </mat-header-cell>
     <mat-cell *matCellDef="let element">
-      {{ element.fechaNacimiento | date }}
+      <ng-container *ngIf="element.isEditMode; else readOnlyFechaNacimiento">
+        <mat-form-field>
+          <input
+            matInput
+            [matDatepicker]="picker"
+            [(ngModel)]="element.fechaNacimiento"
+            placeholder="Fecha de Nacimiento"
+          />
+          <mat-datepicker-toggle
+            matSuffix
+            [for]="picker"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+      </ng-container>
+      <ng-template #readOnlyFechaNacimiento>
+        {{ element.fechaNacimiento | date }}
+      </ng-template>
     </mat-cell>
   </ng-container>
 
-  <!-- Edit Button Column -->
+  <!-- Edit/Save Button Column -->
   <ng-container matColumnDef="edit">
-    <mat-header-cell *matHeaderCellDef> Edit </mat-header-cell>
+    <mat-header-cell *matHeaderCellDef> Action </mat-header-cell>
     <mat-cell *matCellDef="let element">
-      <button mat-button (click)="editRow(element)">Edit</button>
+      <ng-container *ngIf="element.isEditMode; else readOnlyButtons">
+        <button mat-button (click)="saveRow(element)">Save</button>
+      </ng-container>
+      <ng-template #readOnlyButtons>
+        <button mat-button (click)="editRow(element)">Edit</button>
+      </ng-template>
     </mat-cell>
   </ng-container>
 

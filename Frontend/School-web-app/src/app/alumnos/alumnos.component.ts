@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
+import { AlumnosService } from '../services/alumnos.service';
 
 @Component({
   selector: 'app-alumnos',
@@ -7,66 +8,105 @@ import { MatTableDataSource } from '@angular/material/table';
   styleUrls: ['./alumnos.component.css'],
 })
 export class AlumnosComponent implements OnInit {
-  // Define the columns that will be displayed
   displayedColumns: string[] = [
     'id',
     'nombre',
-    'apellido',
+    'apellidos',
     'genero',
     'fechaNacimiento',
     'edit',
     'delete',
   ];
 
-  // Example data source
-  dataSource = new MatTableDataSource<{
-    id: number;
-    nombre: string;
-    apellido: string;
-    genero: string;
-    fechaNacimiento: Date | null;
-  }>([
-    {
-      id: 1,
-      nombre: 'Juan',
-      apellido: 'Pérez',
-      genero: 'Masculino',
-      fechaNacimiento: new Date(2000, 1, 15),
-    },
-    {
-      id: 2,
-      nombre: 'Ana',
-      apellido: 'Gómez',
-      genero: 'Femenino',
-      fechaNacimiento: new Date(1998, 5, 23),
-    },
-    // Add more rows here
-  ]);
+  dataSource = new MatTableDataSource<any>([]);
 
-  constructor() {}
+  constructor(private alumnosService: AlumnosService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.loadAlumnos();
+  }
 
-  // Method to handle adding a new row
+  loadAlumnos(): void {
+    this.alumnosService.getAlumnos().subscribe(
+      (data) => {
+        this.dataSource.data = data;
+      },
+      (error) => {
+        console.error('Error loading alumnos', error);
+      }
+    );
+  }
+
   addNewRow() {
     const newRow = {
-      id: this.dataSource.data.length + 1,
+      id: null,
       nombre: '',
-      apellido: '',
+      apellidos: '',
       genero: '',
       fechaNacimiento: null,
+      isEditMode: true,
     };
-    this.dataSource.data = [...this.dataSource.data, newRow];
+    this.dataSource.data = [newRow, ...this.dataSource.data];
   }
 
-  // Method to handle editing a row
+  saveRow(row: any) {
+    if (!row.nombre || !row.apellidos || !row.genero || !row.fechaNacimiento) {
+      console.error('Validation failed: All fields are required');
+      alert('Please fill out all required fields.');
+      return;
+    }
+
+    row.fechaNacimiento = new Date(row.fechaNacimiento).toISOString();
+
+    // add new Alumno
+    if (row.id === null) {
+      const { id, isEditMode, ...payload } = row;
+      const payloadArray = [payload];
+
+      this.alumnosService.addAlumno(payloadArray).subscribe(
+        (addedAlumno) => {
+          row.id = addedAlumno.id;
+          row.isEditMode = false;
+          console.log('Alumno added', addedAlumno);
+
+          this.loadAlumnos();
+        },
+        (error) => {
+          console.error('Error adding alumno', error);
+          alert(`An error occurred while adding the alumno: ${error.error}`);
+        }
+      );
+    } else {
+      // Update existing Alumno
+      const { isEditMode, ...payload } = row;
+
+      this.alumnosService.updateAlumno(row.id, payload).subscribe(
+        (updatedAlumno) => {
+          row.isEditMode = false;
+          console.log('Alumno updated', updatedAlumno);
+
+          this.loadAlumnos();
+        },
+        (error) => {
+          console.error('Error updating alumno', error);
+          alert(`An error occurred while updating the alumno: ${error.error}`);
+        }
+      );
+    }
+  }
+
   editRow(row: any) {
-    // Implement the edit logic here
-    console.log('Editing row', row);
+    row.isEditMode = true;
   }
 
-  // Method to handle deleting a row
   deleteRow(row: any) {
-    this.dataSource.data = this.dataSource.data.filter((r) => r !== row);
+    this.alumnosService.deleteAlumno(row.id).subscribe(
+      () => {
+        this.dataSource.data = this.dataSource.data.filter((r) => r !== row);
+      },
+      (error) => {
+        console.error('Error deleting alumno', error);
+      }
+    );
   }
 }
