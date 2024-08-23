@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
-import { AlumnosService } from '../services/alumnos.service';
+import { AlumnosService } from '../../services/alumnos.service';
 
 @Component({
   selector: 'app-alumnos',

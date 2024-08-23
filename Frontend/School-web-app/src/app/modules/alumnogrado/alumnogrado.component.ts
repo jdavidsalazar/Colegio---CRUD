@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
-import { AlumnoGradoService } from '../services/alumnogrado.service';
+import { AlumnoGradoService } from '../../services/alumnogrado.service';
 
 @Component({
   selector: 'app-alumno-grados',

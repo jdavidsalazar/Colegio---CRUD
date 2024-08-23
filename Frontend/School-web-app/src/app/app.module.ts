@@ -15,11 +15,11 @@ import { MatSelectModule } from '@angular/material/select';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { NavbarModule } from './navbar/navbar.module';
-import { AlumnosComponent } from './alumnos/alumnos.component';
-import { ProfesoresComponent } from './profesores/profesores.component';
-import { GradosComponent } from './grados/grados.component';
-import { AlumnoGradosComponent } from './alumnogrado/alumnogrado.component';
+import { NavbarModule } from './shared/navbar/navbar.module';
+import { AlumnosComponent } from './modules/alumnos/alumnos.component';
+import { ProfesoresComponent } from './modules/profesores/profesores.component';
+import { GradosComponent } from './modules/grados/grados.component';
+import { AlumnoGradosComponent } from './modules/alumnogrado/alumnogrado.component';
 
 import { AlumnosService } from './services/alumnos.service';
 import { ProfesoresService } from './services/profesores.service';
