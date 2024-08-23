@@ -1,0 +1,17 @@
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\bin\Debug\net6.0\School.Src.Core.Application.Validation.deps.json
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\bin\Debug\net6.0\School.Src.Core.Application.Validation.runtimeconfig.json
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\bin\Debug\net6.0\School.Src.Core.Application.Validation.dll
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\bin\Debug\net6.0\School.Src.Core.Application.Validation.pdb
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\bin\Debug\net6.0\School.Src.Core.Domain.Entities.dll
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\bin\Debug\net6.0\School.Src.Core.Domain.Entities.pdb
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\obj\Debug\net6.0\School.Src.Core.Application.Validation.csproj.AssemblyReference.cache
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\obj\Debug\net6.0\School.Src.Core.Application.Validation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\obj\Debug\net6.0\School.Src.Core.Application.Validation.AssemblyInfoInputs.cache
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\obj\Debug\net6.0\School.Src.Core.Application.Validation.AssemblyInfo.cs
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\obj\Debug\net6.0\School.Src.Core.Application.Validation.csproj.CoreCompileInputs.cache
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\obj\Debug\net6.0\School.Src.Core.Application.Validation.csproj.CopyComplete
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\obj\Debug\net6.0\School.Src.Core.Application.Validation.dll
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\obj\Debug\net6.0\refint\School.Src.Core.Application.Validation.dll
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\obj\Debug\net6.0\School.Src.Core.Application.Validation.pdb
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\obj\Debug\net6.0\School.Src.Core.Application.Validation.genruntimeconfig.cache
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Application.Validation\obj\Debug\net6.0\ref\School.Src.Core.Application.Validation.dll

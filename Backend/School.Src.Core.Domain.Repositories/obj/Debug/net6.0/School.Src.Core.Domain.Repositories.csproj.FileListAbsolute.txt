@@ -1,0 +1,17 @@
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\bin\Debug\net6.0\School.Src.Core.Domain.Repositories.deps.json
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\bin\Debug\net6.0\School.Src.Core.Domain.Repositories.runtimeconfig.json
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\bin\Debug\net6.0\School.Src.Core.Domain.Repositories.dll
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\bin\Debug\net6.0\School.Src.Core.Domain.Repositories.pdb
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\bin\Debug\net6.0\School.Src.Core.Domain.Entities.dll
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\bin\Debug\net6.0\School.Src.Core.Domain.Entities.pdb
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\obj\Debug\net6.0\School.Src.Core.Domain.Repositories.csproj.AssemblyReference.cache
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\obj\Debug\net6.0\School.Src.Core.Domain.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\obj\Debug\net6.0\School.Src.Core.Domain.Repositories.AssemblyInfoInputs.cache
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\obj\Debug\net6.0\School.Src.Core.Domain.Repositories.AssemblyInfo.cs
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\obj\Debug\net6.0\School.Src.Core.Domain.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\obj\Debug\net6.0\School.Src.Core.Domain.Repositories.csproj.CopyComplete
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\obj\Debug\net6.0\School.Src.Core.Domain.Repositories.dll
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\obj\Debug\net6.0\refint\School.Src.Core.Domain.Repositories.dll
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\obj\Debug\net6.0\School.Src.Core.Domain.Repositories.pdb
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\obj\Debug\net6.0\School.Src.Core.Domain.Repositories.genruntimeconfig.cache
+C:\Users\57313\Desktop\Prueba Tecnica Viaro\GitHub - Colegio CRUD\Colegio-CRUD\Backend\School.Src.Core.Domain.Repositories\obj\Debug\net6.0\ref\School.Src.Core.Domain.Repositories.dll

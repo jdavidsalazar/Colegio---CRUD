@@ -1,0 +1,23 @@
+.mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.navbar-spacer {
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #ffcc00;
+}
+
+.active-link {
+  font-weight: bold;
+  color: yellow;
+}

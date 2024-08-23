@@ -1,8 +1,9 @@
 CREATE TABLE AlumnoGrado (
-    Id INT PRIMARY KEY,
+    Id INT IDENTITY(1,1) PRIMARY KEY,
     AlumnoId INT,
     GradoId INT,
     Grupo NVARCHAR(50),
-    FOREIGN KEY (AlumnoId) REFERENCES Alumno(Id),
-    FOREIGN KEY (GradoId) REFERENCES Grado(Id)
+    IsActive BIT,
+    FOREIGN KEY (AlumnoId) REFERENCES Alumnos(Id),
+    FOREIGN KEY (GradoId) REFERENCES Grados(Id)
 );

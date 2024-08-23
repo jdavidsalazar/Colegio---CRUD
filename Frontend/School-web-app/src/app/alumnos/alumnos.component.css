@@ -1,0 +1,20 @@
+mat-toolbar {
+  margin-bottom: 10px;
+}
+
+mat-table {
+  width: 100%;
+}
+
+mat-header-cell,
+mat-cell {
+  padding: 8px;
+}
+
+mat-header-cell {
+  font-weight: bold;
+}
+
+button {
+  min-width: 40px;
+}

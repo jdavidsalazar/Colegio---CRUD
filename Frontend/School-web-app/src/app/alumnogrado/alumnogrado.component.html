@@ -1,0 +1,45 @@
+<button mat-icon-button (click)="addNewRow()">
+  <mat-icon>add</mat-icon>
+</button>
+
+<mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+  <!-- ID Column -->
+  <ng-container matColumnDef="id">
+    <mat-header-cell *matHeaderCellDef> ID </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{ element.id }} </mat-cell>
+  </ng-container>
+
+  <!-- AlumnoId Column -->
+  <ng-container matColumnDef="alumnoId">
+    <mat-header-cell *matHeaderCellDef> Alumno ID </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{ element.alumnoId }} </mat-cell>
+  </ng-container>
+
+  <!-- Grupo Column -->
+  <ng-container matColumnDef="grupo">
+    <mat-header-cell *matHeaderCellDef> Grupo </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{ element.grupo }} </mat-cell>
+  </ng-container>
+
+  <!-- Edit Button Column -->
+  <ng-container matColumnDef="edit">
+    <mat-header-cell *matHeaderCellDef> Edit </mat-header-cell>
+    <mat-cell *matCellDef="let element">
+      <button mat-button (click)="editRow(element)">Edit</button>
+    </mat-cell>
+  </ng-container>
+
+  <!-- Delete Button Column -->
+  <ng-container matColumnDef="delete">
+    <mat-header-cell *matHeaderCellDef> Delete </mat-header-cell>
+    <mat-cell *matCellDef="let element">
+      <button mat-button color="warn" (click)="deleteRow(element)">
+        Delete
+      </button>
+    </mat-cell>
+  </ng-container>
+
+  <!-- Header and Row Definitions -->
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+</mat-table>

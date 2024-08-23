@@ -7,5 +7,6 @@
         public string Apellidos { get; set; }
         public string Genero { get; set; }
         public DateTime FechaNacimiento { get; set; }
+        public bool IsActive { get; set; } = true;
     }
 }

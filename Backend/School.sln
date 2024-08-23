@@ -21,19 +21,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{79D6C2E8-EC78-44B5-A5A5-576B8A30913D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Src.Core.Domain.Entities", "School.Src.Core.Domain.Entities\School.Src.Core.Domain.Entities.csproj", "{06E4C92F-0504-4F22-8B89-B79A207ECDEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School.Src.Core.Domain.Entities", "School.Src.Core.Domain.Entities\School.Src.Core.Domain.Entities.csproj", "{06E4C92F-0504-4F22-8B89-B79A207ECDEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Src.Core.Domain.Repositories", "School.Src.Core.Domain.Repositories\School.Src.Core.Domain.Repositories.csproj", "{E1A69030-79F1-44F0-A25F-95A22AE61452}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School.Src.Core.Domain.Repositories", "School.Src.Core.Domain.Repositories\School.Src.Core.Domain.Repositories.csproj", "{E1A69030-79F1-44F0-A25F-95A22AE61452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Src.Core.Domain.Services", "School.Src.Core.Domain.Services\School.Src.Core.Domain.Services.csproj", "{6DB140B7-93F4-4CE4-9715-C99019D3F6EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School.Src.Core.Domain.Services", "School.Src.Core.Domain.Services\School.Src.Core.Domain.Services.csproj", "{6DB140B7-93F4-4CE4-9715-C99019D3F6EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Src.Core.Application.Services", "School.Src.Core.Application.Services\School.Src.Core.Application.Services.csproj", "{E28D2257-B14D-46AD-959F-44818797B405}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School.Src.Core.Application.Services", "School.Src.Core.Application.Services\School.Src.Core.Application.Services.csproj", "{E28D2257-B14D-46AD-959F-44818797B405}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Src.Core.Application.Validation", "School.Src.Core.Application.Validation\School.Src.Core.Application.Validation.csproj", "{1C3B5FE5-FDF6-4C59-9377-7496CB37549B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School.Src.Core.Application.Validation", "School.Src.Core.Application.Validation\School.Src.Core.Application.Validation.csproj", "{1C3B5FE5-FDF6-4C59-9377-7496CB37549B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Src.Infrastructure.MySqlDb", "School.Src.Infrastructure.MySqlDb\School.Src.Infrastructure.MySqlDb.csproj", "{85F506BA-BA17-4E0F-911F-98CAB8B4727D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School.Src.Infrastructure.MySqlDb", "School.Src.Infrastructure.MySqlDb\School.Src.Infrastructure.MySqlDb.csproj", "{85F506BA-BA17-4E0F-911F-98CAB8B4727D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Src.Presentation.RestApi", "School.Src.Presentation.RestApi2\School.Src.Presentation.RestApi.csproj", "{93D7AAC2-9076-43E5-91D8-D3CCA975F72B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School.Src.Presentation.RestApi", "School.Src.Presentation.RestApi2\School.Src.Presentation.RestApi.csproj", "{93D7AAC2-9076-43E5-91D8-D3CCA975F72B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
