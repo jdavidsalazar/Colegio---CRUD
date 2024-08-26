@@ -14,32 +14,15 @@
     <mat-cell *matCellDef="let element"> {{ element.id }} </mat-cell>
   </ng-container>
 
-  <!-- Name Column -->
-  <ng-container matColumnDef="nombre">
-    <mat-header-cell *matHeaderCellDef> Nombre </mat-header-cell>
+  <!-- Full Name Column -->
+  <ng-container matColumnDef="nombreCompleto">
+    <mat-header-cell *matHeaderCellDef> Nombre Completo </mat-header-cell>
     <mat-cell *matCellDef="let element">
       <ng-container *ngIf="element.isEditMode; else readOnlyName">
         <input matInput [(ngModel)]="element.nombre" placeholder="Nombre" />
       </ng-container>
       <ng-template #readOnlyName>
-        {{ element.nombre }}
-      </ng-template>
-    </mat-cell>
-  </ng-container>
-
-  <!-- Last Name Column -->
-  <ng-container matColumnDef="apellidos">
-    <mat-header-cell *matHeaderCellDef> Apellido </mat-header-cell>
-    <mat-cell *matCellDef="let element">
-      <ng-container *ngIf="element.isEditMode; else readOnlyApellidos">
-        <input
-          matInput
-          [(ngModel)]="element.apellidos"
-          placeholder="Apellido"
-        />
-      </ng-container>
-      <ng-template #readOnlyApellidos>
-        {{ element.apellidos }}
+        {{ element.nombre }} {{ element.apellidos }}
       </ng-template>
     </mat-cell>
   </ng-container>

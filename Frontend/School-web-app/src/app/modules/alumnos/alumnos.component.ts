@@ -10,8 +10,7 @@ import { AlumnosService } from '../../services/alumnos.service';
 export class AlumnosComponent implements OnInit {
   displayedColumns: string[] = [
     'id',
-    'nombre',
-    'apellidos',
+    'nombreCompleto',
     'genero',
     'fechaNacimiento',
     'edit',
